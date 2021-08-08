@@ -1286,7 +1286,7 @@
     transform: scale3d(.9, .9, .9);
   }
 
-  50% {
+  0% {
     opacity: 1;
   }
 }
