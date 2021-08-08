@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: #ffffff;
+    background: hsl(0, 9%, 98%);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -647,10 +647,10 @@ a:focus {
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: #ffffff;
+    background: #f5f3f3;
     position: relative;
     border-right: 5px solid #dddddd;
-    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 60px rgba(5, 5, 5, 0.08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
@@ -666,7 +666,7 @@ a:focus {
 
 .experience .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
-    font-size: 16px;
+    font-size: 10px;
     font-style: italic;
     font-weight: 400;
 }
@@ -753,9 +753,17 @@ a:focus {
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #010a16;
   }
   
+  body {font-size: 100%;} /* purely for cosmetic reasons */
+
+ul {
+  list-style: none; /* remove the default */
+}
+
+
+
 .service .service-icon {
     position: relative;
     width: 50px;
@@ -818,7 +826,6 @@ a:focus {
         font-size: 14px;
     }
 }
-
 
 /*******************************/
 /******** Portfolio CSS ********/
