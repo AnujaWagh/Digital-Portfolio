@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #EF233C;
+    color: #446c92;
     outline: none;
     text-decoration: none;
 }
@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(88, 132, 185, 0.95), rgba(236, 79, 59, 0.95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -474,12 +474,15 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    margin: -45px 0 45px 0;
+    margin: -15px 0 45px 0;
 }
 
 .about .col-lg-6 {
-    padding: 0;
+    padding: 00;
+    color: #000;
+    
 }
+
 
 .about .section-header {
     margin-bottom: 30px;
@@ -488,21 +491,25 @@ a:focus {
 .about .about-img {
     position: relative;
     height: 100%;
+    width: 100;
 }
 
 .about .about-img img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 }
 
 .about .about-content {
-    padding: 0 60px;
+    padding: 0 0px;
+    
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 16;
+    color: hsl(0, 0%, 3%);
+    text-align: justify;
 }
 
 .about .skills {
@@ -543,11 +550,22 @@ a:focus {
 
 @media (max-width: 991.98px) {
     .about .about-content {
-        padding: 45px 15px 0 15px;
+        padding: 15px 15px 0 15px;
     }
 }
 
-
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    background: #f2f2f2;
+  }
+  
+  .right {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
@@ -651,6 +669,8 @@ a:focus {
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(5, 5, 5, 0.08);
+    color: black;
+    text-align: justify;
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
@@ -662,6 +682,8 @@ a:focus {
     margin: 0 0 5px 0;
     font-size: 22px;
     font-weight: 600;
+    color: black;
+    text-align: justify;
 }
 
 .experience .timeline .timeline-text h4 {
@@ -669,11 +691,15 @@ a:focus {
     font-size: 10px;
     font-style: italic;
     font-weight: 400;
+    color: black;
+    text-align: justify;
 }
 
 .experience .timeline .timeline-text p {
     margin: 0;
     font-size: 16px;
+    color: #000;
+    text-align: justify;
 }
 
 @media (max-width: 767.98px) {
@@ -790,6 +816,7 @@ ul {
     position: relative;
     width: calc(100% - 120px);
     padding: 0 30px;
+    text-align: justify;
 }
 
 .service .service-text2 {
@@ -1239,7 +1266,7 @@ ul {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: hsl(207, 68%, 70%);
 }
 
 .testimonial .container {
@@ -1298,7 +1325,7 @@ ul {
 }
 
 .testimonial .testimonial-text h4 {
-    color: #666666;
+    color: #0f0e0e;
     font-size: 14px;
     margin-bottom: 0;
 }
@@ -1329,7 +1356,7 @@ ul {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: rgba(88, 132, 185, 0.95)
 }
 
 .contact .container-fluid {
@@ -1340,7 +1367,7 @@ ul {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: rgba(88, 132, 185, 0.95)
 }
 
 .contact .contact-form input {
@@ -1488,7 +1515,7 @@ ul {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: rgba(88, 132, 185, 0.95);
 }
 
 .footer .container-fluid {
