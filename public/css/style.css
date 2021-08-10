@@ -492,17 +492,19 @@ a:focus {
     position: relative;
     height: 100%;
     width: 100;
+    padding-right: 0px;
 }
 
 .about .about-img img {
     position: relative;
-    width: 80%;
+    width: 85%;
     height: 80%;
     object-fit: cover;
 }
 
 .about .about-content {
     padding: 0 0px;
+    padding-left: 0px;
     
 }
 
@@ -972,6 +974,8 @@ ul {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .portfolio #portfolio-filter {
@@ -1369,7 +1373,48 @@ ul {
         margin-bottom: 10px;
     }
 }
+/*******************************/
+/******* Interests CSS *******/
+/*******************************/
 
+.interests {
+    position: relative;
+    padding: 45px 0 15px 0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+  .skills .progress-interest {
+    padding-top: 10px;
+    padding-left: 40px;
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    font-size: 1rem;
+    color: black;
+  }
+
+  @font-face {
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+  }
+  
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .bi-camera2::before { content: "\f221"; }
 
 /*******************************/
 /******* Testimonial CSS *******/
@@ -1377,22 +1422,24 @@ ul {
 .testimonial {
     position: relative;
     margin: 45px 0;
-    padding: 90px 0;
+    padding: 30px 0;
+    padding-bottom: 20px;
     background: hsl(207, 68%, 70%);
 }
 
 .testimonial .container {
-    max-width: 900px;
+    max-width: 850px;
 }
 
 .testimonial .testimonial-icon {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 .testimonial .testimonial-icon i {
     font-size: 60px;
     color: rgba(256, 256, 256, .5);
+    padding: 20px;
 }
 
 .testimonial .testimonial-item {
@@ -1403,16 +1450,16 @@ ul {
 
 .testimonial .testimonial-img {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     z-index: 1;
 }
 
 .testimonial .testimonial-item img {
     margin: 0 auto;
-    width: 120px;
+    width: 180px;
     padding: 10px;
-    border: 5px dotted #ffffff;
-    border-radius: 100px;
+    border: 4px dotted #ffffff;
+    border-radius: 90px;
 }
 
 .testimonial .testimonial-text {
@@ -1421,6 +1468,7 @@ ul {
     padding: 65px 35px 30px 35px;
     text-align: center;
     background: #ffffff;
+    color: black;
     border-radius: 500px;
 }
 
