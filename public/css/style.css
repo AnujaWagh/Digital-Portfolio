@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(88, 132, 185, 0.95), rgba(236, 79, 59, 0.95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(#000000cc, #0067d1cc, #00d1b2cc), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -854,6 +854,117 @@ ul {
     }
 }
 
+
+
+
+/*******************************/
+/********* certification CSS *********/
+/*******************************/
+.certification {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.certification .certification-item {
+    position: relative;
+    margin-bottom: 30px;
+    /* display: flex; */
+    /* align-items: center;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s; */
+    text-align: center;
+    min-width: 100%;
+
+}
+
+.certification .certification-item:hover {
+    box-shadow: inset 800px 0 0 0 #EF233C;
+}
+
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #010a16;
+  }
+  
+  body {font-size: 100%;} /* purely for cosmetic reasons */
+
+ul {
+  list-style: none; /* remove the default */
+}
+
+
+
+.certification .certification-icon {
+    position: relative;
+    /* width: 100%; */
+    min-height: 100%;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid #EF233C; */
+    /* background: #ffffff;*/
+}
+
+.certification .certification-icon i {
+    position: relative;
+    font-size: 45px;
+    color: #494949;
+    transition: .0s;
+}
+
+.certification .certification-item:hover i {
+    font-size: 55px;
+}
+
+.certification .certification-text {
+    /* position: relative; */
+    /* text-align: justify; */
+    /* display: flex; */
+    font-size: 12px;
+    min-width: 100%;
+    /* text-align: center;*/
+}
+
+.certification .certification-text2 {
+    position: relative;
+    width: calc(100% - 120px);
+    padding: 0 15px;
+}
+
+.certification .certification-text h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.certification .certification-text p {
+    margin: 0;
+    font-size: 16px;
+    transition: 1s;
+}
+
+/* .certification .certification-item:hover .certification-text h3,
+.certification .certification-item:hover .certification-text p {
+    color: #ffffff;
+} */
+
+@media (max-width: 575.98px) {
+    .certification .certification-text h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .certification .certification-text p {
+        font-size: 14px;
+    }
+}
 /*******************************/
 /******** Portfolio CSS ********/
 /*******************************/
