@@ -245,7 +245,7 @@ a:focus {
 .hero {
     position: relative;
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     padding: 120px 0 0 0;
     overflow: hidden;
     background: linear-gradient(#000000cc, #0067d1cc, #00d1b2cc), url(../img/hero-bg.jpg);
@@ -266,7 +266,7 @@ a:focus {
 
 .hero .hero-image img {
     max-width: 80%;
-    max-height: 80%;
+    max-height: 100%;
 }
 
 .hero .hero-content {
@@ -895,7 +895,8 @@ ul {
   body {font-size: 100%;} /* purely for cosmetic reasons */
 
 ul {
-  list-style: none; /* remove the default */
+  
+  padding-left: 0px;/* remove the default */
 }
 
 
@@ -913,21 +914,21 @@ ul {
 
 .certification .certification-icon i {
     position: relative;
-    font-size: 45px;
+    font-size: 25px;
     color: #494949;
     transition: .0s;
 }
 
 .certification .certification-item:hover i {
-    font-size: 55px;
+    font-size: 30px;
 }
 
 .certification .certification-text {
-    /* position: relative; */
+    position: relative; 
     /* text-align: justify; */
     /* display: flex; */
-    font-size: 12px;
-    min-width: 100%;
+    font-size: 16px;
+    min-width: 60%;
     /* text-align: center;*/
 }
 
