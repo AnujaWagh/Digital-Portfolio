@@ -445,6 +445,7 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     background: #ffffff;
+    color: #797979;;
     margin-bottom: 20px;
     font-family: Arial;
 }
@@ -507,7 +508,7 @@ a:focus {
 
 
 .about .section-header {
-    margin-bottom: 00px;
+    margin-bottom: 0px;
     margin-top: 0px;
 }
 
@@ -644,7 +645,7 @@ a:focus {
     height: 16px;
     top: 48px;
     right: -8px;
-    background: #ffffff;
+    background: #3d3c3c;
     border: 2px solid #EF233C;
     border-radius: 16px;
     z-index: 1;
@@ -695,7 +696,7 @@ a:focus {
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: #f5f3f3;
+    background: #ece6e6;
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(5, 5, 5, 0.08);
@@ -786,8 +787,8 @@ a:focus {
 .service {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
-    margin-top: 5px;
+    margin: -50px 0 0px 0;
+  
 }
 
 .service .service-item {
@@ -797,10 +798,13 @@ a:focus {
     align-items: center;
     box-shadow: inset 0 0 0 0 transparent;
     transition: ease-out 0.5s;
+    margin: 20px 0 0px 0;
 }
 
 .service .service-item:hover {
     box-shadow: inset 800px 0 0 0 #EF233C;
+   
+   
 }
 
 .skills .progress .skill {
