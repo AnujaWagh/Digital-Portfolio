@@ -514,24 +514,22 @@ a:focus {
 .about .about-img {
     position: relative;
     height: 100%;
-    width: 100;
-    padding-right: 0px;
-    margin-top: 0px;
-    margin: -15px auto 45px auto;
+    width: 100%;
+    padding-left: 30px;
+    margin: -90px 20px 15px auto;
 }
 
 .about .about-img img {
     position: relative;
-    width: 75%;
-    height: 80%;
+    width: 77%;
+    height: 100%;
     object-fit: cover;
 }
 
 .about .about-content {
     padding: 0 0px;
     padding-left: 0px;
-    margin-top: -20px;
-    margin: -15px auto 45px auto;
+    margin: -15px 40px 35px -85px;
     font-family: Arial;
     font-size: 17px;
 }
