@@ -514,33 +514,37 @@ a:focus {
 
 .about .about-img {
     position: relative;
-    height: 100%;
-    width: 100%;
-    padding-left: 30px;
-    margin: -90px 20px 15px auto;
+    height: 95%;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    
+    
+   
 }
 
 .about .about-img img {
     position: relative;
-    width: 77%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .about .about-content {
-    padding: 0 0px;
+    padding: 0 60px;
     padding-left: 0px;
-    margin: -15px 40px 35px -85px;
     font-family: Arial;
     font-size: 17px;
+    margin-top: 00px;
 }
 
 .about .about-text p {
-    font-size: 17px;
+    font-size: 18px;
+    /*font-size: 17px;
     color: hsl(0, 0%, 3%);
     text-align: justify;
     margin: -20px auto 45px auto;
-    font-family: Arial;
+    font-family: Arial;*/
 }
 
 .about .skills {
@@ -581,11 +585,11 @@ a:focus {
 
 @media (max-width: 991.98px) {
     .about .about-content {
-        padding: 15px 15px 0 15px;
+        padding: 45px 15px 0 15px;
     }
 }
 
-.arrow {
+/*.arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -596,7 +600,7 @@ a:focus {
   .right {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
-  }
+  }*/
 /*******************************/
 /******* Experience CSS ********/
 /*******************************/
@@ -787,7 +791,8 @@ a:focus {
 .service {
     position: relative;
     width: 100%;
-    margin: -50px 0 0px 0;
+    margin: 50px 0px 0px 20px;
+   
   
 }
 
@@ -796,13 +801,15 @@ a:focus {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 0 0 transparent;
+    /* box-shadow: inset 0 0 0 0 transparent; */
+    background-color: transparent;
     transition: ease-out 0.5s;
-    margin: 20px 0 0px 0;
+    margin: 20px 20 0px 0;
 }
 
 .service .service-item:hover {
-    box-shadow: inset 320px 0 0 0 #EF233C;
+    /* box-shadow: inset 280px 0 0 0 #EF233C; */
+    background-color: #EF233C;
 }
 
 .skills .progress .skill {
@@ -850,6 +857,7 @@ ul {
     width: calc(100% - 120px);
     padding: 0 30px;
     text-align: justify;
+    
 }
 
 .service .service-text2 {
@@ -869,6 +877,7 @@ ul {
     margin: 0;
     font-size: 16px;
     transition: 1s;
+   
 }
 
 .service .service-item:hover .service-text h3,
